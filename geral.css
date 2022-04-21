@@ -56,6 +56,9 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 nav{
@@ -120,15 +123,21 @@ input {
     border: none;
     padding: 5px;
     background: #ccc;
-    width: 300px;
 }
 
 input::placeholder {
-    color: black;
+    color: #888;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 main {
-    padding: 15px 20px 10px 20px;
+    padding: 15px 20px 85px 20px;
+    font-family: lato;
 }
 
 #titulo{
@@ -162,10 +171,6 @@ footer p {
 
 footer img {
     max-width: 100px;
-}
-
-main{
-    font-family: lato;
 }
 
 table

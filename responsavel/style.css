@@ -1,0 +1,89 @@
+.login a {
+    color: black;
+}
+
+.login .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+    border: 2px solid #14387F;
+    border-radius: 22px;
+    padding: 30px 15px;
+    background: #C4C4C4;
+}
+
+.login label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login input, .login select, .login textarea {
+    display: block;
+    background: #f0f0e9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.login input:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.login input:nth-of-type(2) {
+    margin-bottom: 5px;
+}
+
+.login small {
+    color: #14387F;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.login button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #14387F;
+    color: #f0f0e9;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.nao-possui-conta {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login form a {
+    display: block;
+}
+
+.cadastro input, .cadastro select {
+    margin-bottom: 20px;
+}
+
+.cadastro #nome {
+    width: 100%;
+}
+
+.cadastro input {
+    width: initial;
+}
+
+#concordo {
+    margin-right: 5px;
+}
+
+.cadastro #concordo, .cadastro p {
+    display: inline-block;
+}
+
+.cadastro #email, .cadastro #departamento {
+   width: 30%;
+   display: block;
+} 
