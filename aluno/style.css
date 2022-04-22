@@ -62,3 +62,11 @@
 .login form a {
     display: block;
 }
+
+.left {
+    float:left;
+}
+  
+.clear {
+    clear:both;
+}

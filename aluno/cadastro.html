@@ -51,40 +51,63 @@
             name="nome"
             autofocus
             placeholder="Ex: João da Silva"
+            style="width: 100%;"
           />
-          <label for="email">E-mail: *</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="fulano@ufrrj.br"
-          />
-          <label for="departamento">Departamento: *</label>
-          <select name="departamento" id="departamento">
-            <option value="ia">Agronomia (IA)</option>
-            <option value="icbs">Ciências Biológicas e da Saúde (ICBS)</option>
-            <option value="ice">Ciências Exatas (ICE)</option>
-            <option value="ichs">Ciências Humanas e Sociais (ICHS)</option>
-            <option value="icsa">Ciências Sociais Aplicadas (ICSA)</option>
-            <option value="ie">Educação (IE)</option>
-            <option value="if">Florestas (IF)</option>
-            <option value="iq">Química (IQ)</option>
-            <option value="it">Tecnologia (IT)</option>
-            <option value="iv">Veterinária (IV)</option>
-            <option value="iz">Zootecnia (IZ)</option>
-          </select>
-          <label for="cpf">CPF: *</label>
-          <input
-            type="number"
-            name="cpf"
-            id="cpf"
-            placeholder="999.999.999-99"
-          />
-          <label for="tel">Telefone: *</label>
-          <input type="tel" id="tel" name="tel" placeholder="(21) 99999-9999" />
-          <label for="nasc">Data de nascimento: *</label>
-          <input type="date" name="nasc" id="nasc" />
-          <label for="estado">Estado: *</label>
+          <div id="email" class="left">
+            <label for="email">E-mail: *</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="fulano@ufrrj.br"
+            />
+          </div>
+          <div id="departamento" class="left">
+            <label for="departamento">Departamento: *</label><br>
+            <select name="departamento" id="departamento">
+              <option value="ia">Agronomia (IA)</option>
+              <option value="icbs">Ciências Biológicas e da Saúde (ICBS)</option>
+              <option value="ice">Ciências Exatas (ICE)</option>
+              <option value="ichs">Ciências Humanas e Sociais (ICHS)</option>
+              <option value="icsa">Ciências Sociais Aplicadas (ICSA)</option>
+              <option value="ie">Educação (IE)</option>
+              <option value="if">Florestas (IF)</option>
+              <option value="iq">Química (IQ)</option>
+              <option value="it">Tecnologia (IT)</option>
+              <option value="iv">Veterinária (IV)</option>
+              <option value="iz">Zootecnia (IZ)</option>
+            </select>
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div id="cpf" class="left">
+            <label for="cpf">CPF: *</label>
+            <input
+              type="number"
+              name="cpf"
+              id="cpf"
+              placeholder="999.999.999-99"
+            />
+          </div>
+          <div id="tel" class="left">  
+            <label for="tel">Telefone: *</label>
+            <input type="tel" id="tel" name="tel" placeholder="(__) _____-____" />
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div id="nascimento" class="left">
+            <label for="nasc">Data de nascimento: *</label>
+            <input type="date" name="nasc" id="nasc" />
+          </div>
+          <div id="municipio" class="left">
+            <label for="municipio">Municipio: *</label>
+            <input type="text" name="municipio" id="municipio" placeholder="onde judas perdeu as botas">
+          </div>
+          <div class="clear"></div>
+          <div id="endereco" class="left">
+            <label for="endereco">Endereço: *</label>
+            <input type="text" name="endereco" id="endereco" placeholder="as botas">
+          </div>
+          <div id="estado" class="left">
+          <label for="estado">Estado: *</label><br>
           <select id="estado" name="estado">
             <option value="AC">Acre</option>
             <option value="AL">Alagoas</option>
@@ -114,6 +137,35 @@
             <option value="SE">Sergipe</option>
             <option value="TO">Tocantins</option>
           </select>
+          </div>
+          <div class="clear"></div>
+          <div id="cep" class="left">
+            <label for="cep">CEP: *</label>
+            <input type="number" id="cep" name="cep" placeholder="_____-___">
+          </div>
+          <div id="curso" class="left">
+            <label for="curso">Curso: *</label>
+            <input type="text" id="curso" name="curso">
+          </div>
+          <div class="clear"></div>
+          <div id="matricula" class="left">
+            <label for="matricula">Matrícula: *</label>
+            <input type="number" id="matricula" name="matricula">
+          </div>
+          <div id="periodo atual" class="left">
+            <label for="periodo atual">Periodo Atual: *</label>
+            <input type="number" id="periodo atual" name="periodo atual" placeholder="2021.2">
+          </div>
+          <div class="clear"></div>
+          <div id="participou" class="left">
+            <label for="participou">Já participou de algum<br> projeto de extensão?: *</label>
+            <input type="radio" name="participou" id="sim" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="participou" id="nao" value="Nao">
+            <label for="nao">Não</label>
+          </div>
+          <div class="clear"></div>
+          <!--
           <label for="campus">Câmpus de aplicação: *</label>
           <select id="campus" name="campus">
             <option value="seropedica">Seropédica (Sede)</option>
@@ -131,34 +183,47 @@
             <option value="interdisciplinar">Interdisciplinar</option>
             <option value="linguistica">Linguística, Letras e Artes</option>
           </select>
-          <label for="nome-usuario">Nome de usuário: *</label>
-          <input
-            type="text"
-            name="nome-usuario"
-            id="nome-usuario"
-            placeholder="Ex: noobmaster69"
-          />
-          <label for="password">Senha: *</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="**********"
-          />
-          <label for="password2">Confirme sua senha: *</label>
-          <input
-            type="password"
-            id="password2"
-            name="password2"
-            placeholder="**********"
-          />
-          <textarea name="termos" id="termos" cols="30" rows="10" readonly>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea
-          >
-          <input type="checkbox" id="concordo" />
-          <p>Li e concordo com os termos de uso</p>
-          <button>Enviar</button>
+          -->
+          <div id="nome-usuario" class="left">
+            <label for="nome-usuario">Nome de usuário: *</label>
+            <input
+              type="text"
+              name="nome-usuario"
+              id="nome-usuario"
+              placeholder="Ex: noobmaster69"
+            />
+          </div>
+          <div id="termos" class="left">
+            <textarea name="termos" id="termos" cols="30" rows="10" readonly>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea>
+              <input type="checkbox" id="concordo" />
+              <h0>Li e concordo com os termos de uso</h0>
+          </div>
+          <div class="clear"></div>
+          <div id="password" class="left">
+            <label for="password">Senha: *</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="**********"
+              />
+          </div>
+          <div class="clear"></div>
+          <div id="password" class="left">
+            <label for="password2">Confirme sua senha: *</label>
+            <input
+              type="password"
+              id="password2"
+              name="password2"
+              placeholder="**********"
+            />
+          </div>
+          <div id="enviar" class="left">
+            <button style="width: 160px;">Enviar</button>
+          </div>
+          <div class="clear"></div>
         </form>
       </main>
       <footer>
