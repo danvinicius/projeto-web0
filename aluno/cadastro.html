@@ -62,7 +62,7 @@
               placeholder="fulano@ufrrj.br"
             />
           </div>
-          <div id="departamento" class="left">
+          <div id="departamento" class="right">
             <label for="departamento">Departamento: *</label><br>
             <select name="departamento" id="departamento">
               <option value="ia">Agronomia (IA)</option>
@@ -88,7 +88,7 @@
               placeholder="999.999.999-99"
             />
           </div>
-          <div id="tel" class="left">  
+          <div id="tel" class="right">  
             <label for="tel">Telefone: *</label>
             <input type="tel" id="tel" name="tel" placeholder="(__) _____-____" />
           </div>
@@ -97,7 +97,7 @@
             <label for="nasc">Data de nascimento: *</label>
             <input type="date" name="nasc" id="nasc" />
           </div>
-          <div id="municipio" class="left">
+          <div id="municipio" class="right">
             <label for="municipio">Municipio: *</label>
             <input type="text" name="municipio" id="municipio" placeholder="onde judas perdeu as botas">
           </div>
@@ -106,7 +106,7 @@
             <label for="endereco">Endereço: *</label>
             <input type="text" name="endereco" id="endereco" placeholder="as botas">
           </div>
-          <div id="estado" class="left">
+          <div id="estado" class="right">
           <label for="estado">Estado: *</label><br>
           <select id="estado" name="estado">
             <option value="AC">Acre</option>
@@ -143,7 +143,7 @@
             <label for="cep">CEP: *</label>
             <input type="number" id="cep" name="cep" placeholder="_____-___">
           </div>
-          <div id="curso" class="left">
+          <div id="curso" class="right">
             <label for="curso">Curso: *</label>
             <input type="text" id="curso" name="curso">
           </div>
@@ -152,7 +152,7 @@
             <label for="matricula">Matrícula: *</label>
             <input type="number" id="matricula" name="matricula">
           </div>
-          <div id="periodo atual" class="left">
+          <div id="periodo atual" class="right">
             <label for="periodo atual">Periodo Atual: *</label>
             <input type="number" id="periodo atual" name="periodo atual" placeholder="2021.2">
           </div>
@@ -163,6 +163,13 @@
             <label for="sim">Sim</label>
             <input type="radio" name="participou" id="nao" value="Nao">
             <label for="nao">Não</label>
+          </div>
+          <div id="termos" class="right">
+            <textarea name="termos" id="termos" cols="30" rows="10" readonly>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea>
+              <input type="checkbox" id="concordo" />
+              <h0>Li e concordo com os termos de uso</h0>
           </div>
           <div class="clear"></div>
           <!--
@@ -193,13 +200,6 @@
               placeholder="Ex: noobmaster69"
             />
           </div>
-          <div id="termos" class="left">
-            <textarea name="termos" id="termos" cols="30" rows="10" readonly>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea>
-              <input type="checkbox" id="concordo" />
-              <h0>Li e concordo com os termos de uso</h0>
-          </div>
           <div class="clear"></div>
           <div id="password" class="left">
             <label for="password">Senha: *</label>
@@ -220,7 +220,7 @@
               placeholder="**********"
             />
           </div>
-          <div id="enviar" class="left">
+          <div id="enviar" class="right">
             <button style="width: 160px;">Enviar</button>
           </div>
           <div class="clear"></div>
