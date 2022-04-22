@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <header>
-        <a href="../home/index.html">
+        <a href="../index.html">
           <img src="../imagens/rural.png" />
           <div>
             <h1 id="titulo">PROGAE</h1>
@@ -25,7 +25,7 @@
       </header>
       <nav>
         <ul>
-          <li><a href="../home/index.html">Projetos</a></li>
+          <li><a href="../index.html">Projetos</a></li>
           <li><a href="../home/noticias.html"> Notícias</a></li>
           <div class="search-box">
             <input type="text" />
@@ -61,11 +61,13 @@
               placeholder="fulano@ufrrj.br"
             />
           </div>
-            <div id="departamento" class="right">
+          <div id="departamento" class="right">
             <label for="departamento">Departamento: *</label>
             <select name="departamento" id="departamento">
               <option value="ia">Agronomia (IA)</option>
-              <option value="icbs">Ciências Biológicas e da Saúde (ICBS)</option>
+              <option value="icbs">
+                Ciências Biológicas e da Saúde (ICBS)
+              </option>
               <option value="ice">Ciências Exatas (ICE)</option>
               <option value="ichs">Ciências Humanas e Sociais (ICHS)</option>
               <option value="icsa">Ciências Sociais Aplicadas (ICSA)</option>
@@ -89,7 +91,12 @@
           </div>
           <div id="tel" class="right">
             <label for="tel">Telefone: *</label>
-            <input type="tel" id="tel" name="tel" placeholder="(21) 99999-9999" />
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="(21) 99999-9999"
+            />
           </div>
           <div class="clear"></div>
           <div id="nasc" class="left">
@@ -98,15 +105,25 @@
           </div>
           <div id="municipio" class="right">
             <label for="municipio">Municipio: *</label>
-            <input type="text" name="municipio" id="municipio" placeholder="onde judas perdeu as botas">
+            <input
+              type="text"
+              name="municipio"
+              id="municipio"
+              placeholder="onde judas perdeu as botas"
+            />
           </div>
           <div class="clear"></div>
           <div id="endereco" class="left">
             <label for="endereco">Endereço: *</label>
-            <input type="text" name="endereco" id="endereco" placeholder="as botas">
+            <input
+              type="text"
+              name="endereco"
+              id="endereco"
+              placeholder="as botas"
+            />
           </div>
           <div id="estado" class="right">
-            <label for="estado">Estado: *</label><br>
+            <label for="estado">Estado: *</label><br />
             <select id="estado" name="estado">
               <option value="AC">Acre</option>
               <option value="AL">Alagoas</option>
@@ -136,12 +153,12 @@
               <option value="SE">Sergipe</option>
               <option value="TO">Tocantins</option>
             </select>
-            </div>
-            <div class="clear"></div>
-            <div id="cep" class="left">
-              <label for="cep">CEP: *</label>
-              <input type="number" id="cep" name="cep" placeholder="_____-___">
-            </div>
+          </div>
+          <div class="clear"></div>
+          <div id="cep" class="left">
+            <label for="cep">CEP: *</label>
+            <input type="number" id="cep" name="cep" placeholder="_____-___" />
+          </div>
           <div id="campus" class="right">
             <label for="campus">Câmpus de aplicação: *</label>
             <select id="campus" name="campus">
@@ -156,9 +173,13 @@
             <select name="area" id="area">
               <option value="ciencias-biologicas">Ciências Biológicas</option>
               <option value="ciencias-saude">Ciências da Saúde</option>
-              <option value="ciencias-exatas">Ciências Exatas e da Terra</option>
+              <option value="ciencias-exatas">
+                Ciências Exatas e da Terra
+              </option>
               <option value="ciencias-humanas">Ciências Humanas</option>
-              <option value="ciencias-sociais">Ciências Sociais Aplicadas</option>
+              <option value="ciencias-sociais">
+                Ciências Sociais Aplicadas
+              </option>
               <option value="engenharias">Engenharias</option>
               <option value="interdisciplinar">Interdisciplinar</option>
               <option value="linguistica">Linguística, Letras e Artes</option>
@@ -186,9 +207,9 @@
           <div id="termos" class="right">
             <textarea name="termos" id="termos" cols="30" rows="10" readonly>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea
+            >
             <input type="checkbox" id="concordo" />
-            
           </div>
           <div id="password2" class="left">
             <label for="password2">Confirme sua senha: *</label>
@@ -201,7 +222,7 @@
           </div>
           <div class="clear"></div>
           <div id="enviar" class="right">
-            <button style="width: 160px;">Enviar</button>
+            <button style="width: 160px">Enviar</button>
           </div>
           <div class="clear"></div>
         </form>

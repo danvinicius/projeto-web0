@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <header>
-        <a href="../home/index.html">
+        <a href="../index.html">
           <img src="../imagens/rural.png" />
           <div>
             <h1 id="titulo">PROGAE</h1>
@@ -25,7 +25,7 @@
       </header>
       <nav>
         <ul>
-          <li><a href="../home/index.html">Projetos</a></li>
+          <li><a href="../index.html">Projetos</a></li>
           <li><a href="../home/noticias.html"> Notícias</a></li>
           <div class="search-box">
             <input type="text" />
@@ -51,7 +51,7 @@
             name="nome"
             autofocus
             placeholder="Ex: João da Silva"
-            style="width: 100%;"
+            style="width: 100%"
           />
           <div id="email" class="left">
             <label for="email">E-mail: *</label>
@@ -63,10 +63,12 @@
             />
           </div>
           <div id="departamento" class="right">
-            <label for="departamento">Departamento: *</label><br>
+            <label for="departamento">Departamento: *</label><br />
             <select name="departamento" id="departamento">
               <option value="ia">Agronomia (IA)</option>
-              <option value="icbs">Ciências Biológicas e da Saúde (ICBS)</option>
+              <option value="icbs">
+                Ciências Biológicas e da Saúde (ICBS)
+              </option>
               <option value="ice">Ciências Exatas (ICE)</option>
               <option value="ichs">Ciências Humanas e Sociais (ICHS)</option>
               <option value="icsa">Ciências Sociais Aplicadas (ICSA)</option>
@@ -88,9 +90,14 @@
               placeholder="999.999.999-99"
             />
           </div>
-          <div id="tel" class="right">  
+          <div id="tel" class="right">
             <label for="tel">Telefone: *</label>
-            <input type="tel" id="tel" name="tel" placeholder="(__) _____-____" />
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="(__) _____-____"
+            />
           </div>
           <div class="clear">&nbsp;</div>
           <div id="nascimento" class="left">
@@ -99,77 +106,96 @@
           </div>
           <div id="municipio" class="right">
             <label for="municipio">Municipio: *</label>
-            <input type="text" name="municipio" id="municipio" placeholder="onde judas perdeu as botas">
+            <input
+              type="text"
+              name="municipio"
+              id="municipio"
+              placeholder="onde judas perdeu as botas"
+            />
           </div>
           <div class="clear"></div>
           <div id="endereco" class="left">
             <label for="endereco">Endereço: *</label>
-            <input type="text" name="endereco" id="endereco" placeholder="as botas">
+            <input
+              type="text"
+              name="endereco"
+              id="endereco"
+              placeholder="as botas"
+            />
           </div>
           <div id="estado" class="right">
-          <label for="estado">Estado: *</label><br>
-          <select id="estado" name="estado">
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espírito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PB">Paraíba</option>
-            <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PI">Piauí</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="SP">São Paulo</option>
-            <option value="SE">Sergipe</option>
-            <option value="TO">Tocantins</option>
-          </select>
+            <label for="estado">Estado: *</label><br />
+            <select id="estado" name="estado">
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
           </div>
           <div class="clear"></div>
           <div id="cep" class="left">
             <label for="cep">CEP: *</label>
-            <input type="number" id="cep" name="cep" placeholder="_____-___">
+            <input type="number" id="cep" name="cep" placeholder="_____-___" />
           </div>
           <div id="curso" class="right">
             <label for="curso">Curso: *</label>
-            <input type="text" id="curso" name="curso">
+            <input type="text" id="curso" name="curso" />
           </div>
           <div class="clear"></div>
           <div id="matricula" class="left">
             <label for="matricula">Matrícula: *</label>
-            <input type="number" id="matricula" name="matricula">
+            <input type="number" id="matricula" name="matricula" />
           </div>
           <div id="periodo atual" class="right">
             <label for="periodo atual">Periodo Atual: *</label>
-            <input type="number" id="periodo atual" name="periodo atual" placeholder="2021.2">
+            <input
+              type="number"
+              id="periodo atual"
+              name="periodo atual"
+              placeholder="2021.2"
+            />
           </div>
           <div class="clear"></div>
           <div id="participou" class="left">
-            <label for="participou">Já participou de algum<br> projeto de extensão?: *</label>
-            <input type="radio" name="participou" id="sim" value="Sim">
+            <label for="participou"
+              >Já participou de algum<br />
+              projeto de extensão?: *</label
+            >
+            <input type="radio" name="participou" id="sim" value="Sim" />
             <label for="sim">Sim</label>
-            <input type="radio" name="participou" id="nao" value="Nao">
+            <input type="radio" name="participou" id="nao" value="Nao" />
             <label for="nao">Não</label>
           </div>
           <div id="termos" class="right">
             <textarea name="termos" id="termos" cols="30" rows="10" readonly>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum luctus. Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus vehicula libero at sem fermentum
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea>
-              <input type="checkbox" id="concordo" />
-              <h0>Li e concordo com os termos de uso</h0>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero at sem fermentum </textarea
+            >
+            <input type="checkbox" id="concordo" />
+            <h0>Li e concordo com os termos de uso</h0>
           </div>
           <div class="clear"></div>
           <div id="nome-usuario" class="left">
@@ -184,12 +210,12 @@
           <div class="clear"></div>
           <div id="password" class="left">
             <label for="password">Senha: *</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                placeholder="**********"
-              />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="**********"
+            />
           </div>
           <div class="clear"></div>
           <div id="password" class="left">
@@ -202,7 +228,7 @@
             />
           </div>
           <div id="enviar" class="right">
-            <button style="width: 160px;">Enviar</button>
+            <button style="width: 160px">Enviar</button>
           </div>
           <div class="clear"></div>
         </form>
