@@ -1,4 +1,4 @@
-# PROJETO - WEB0 - UFRRJ 🌳⚙️
+# Projeto - Introdução a Sistemas Web - UFRRJ 🌳⚙️
 
 Repositório dedicado ao desenvolvimento do projeto da disciplina Introdução a Web do curso de Sistemas de Informação da UFRRJ.
 
@@ -22,3 +22,7 @@ A descrição completa pode ser encontrada em [link](https://docs.google.com/doc
 - [Caio Fernandes](https://github.com/CaioFernandesRural)
 - [Cássia Mariane](https://github.com/cassiamariane)
 - [Daniel Vinícius](https://github.com/danvinicius)
+
+## Professor
+
+- [Tiago Cruz de França](https://github.com/tcruzfranca)
