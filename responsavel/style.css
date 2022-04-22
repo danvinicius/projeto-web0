@@ -71,10 +71,6 @@
     width: 100%;
 }
 
-.cadastro input {
-    width: initial;
-}
-
 #concordo {
     margin-right: 5px;
 }
@@ -84,6 +80,18 @@
 }
 
 .cadastro #email, .cadastro #departamento {
-   width: 30%;
+
    display: block;
-} 
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+  
+.clear {
+    clear:both;
+}
