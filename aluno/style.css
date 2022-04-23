@@ -74,3 +74,65 @@
 .clear {
     clear:both;
 }
+
+h2, h3, h4
+{
+    font-family: latob;
+}
+
+#projeto
+{
+    background-color: #C4C4C4;
+    border-radius: 25px;
+    padding: 25px;
+    height:auto;
+}
+
+#notificacao
+{
+    background-color: #D4D4D4;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+    height: 100%;
+}
+
+label
+{
+    font-family: latob;
+}
+
+progress
+{
+    height: 30px;
+    width: 300px;
+}
+
+#sair
+{
+    background-color: #D61313;
+    color: #F0F0E9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 100%;
+    font-family: lato;
+}
+
+#novo
+{
+    background-color: #14387F;
+    color: #F0F0E9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 100%;
+    font-family: lato;
+}
+
+#objetivo
+{
+    max-width: 70%;
+}

@@ -184,6 +184,7 @@ td, th
 {
     padding: 8px;
     text-align: left;
+    font-family: lato;
 }
 
 tr:nth-child(even)
