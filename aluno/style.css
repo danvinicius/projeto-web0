@@ -88,13 +88,35 @@ h2, h3, h4
     height:auto;
 }
 
-#notificacao
+#notificacoes
 {
     background-color: #D4D4D4;
     padding: 20px;
     border-radius: 25px;
     width: 200px;
-    height: 100%;
+    min-height: 10px;
+    position: relative;
+}
+
+#notificacoes p {
+    margin: 10px 0;
+}
+
+#notif {
+    height: 35px;
+    width: 35px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notif p {
+    color: #f0f0e9;
 }
 
 label
@@ -135,4 +157,8 @@ progress
 #objetivo
 {
     max-width: 70%;
+}
+
+#btn-entrar a {
+    color: #F0F0E9;
 }
