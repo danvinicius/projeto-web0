@@ -192,3 +192,7 @@ tr:nth-child(even)
     background-color: #D4D4D4;
     padding-right: 20px;
 }
+
+textarea {
+    resize: none;
+}

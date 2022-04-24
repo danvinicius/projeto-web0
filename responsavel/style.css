@@ -186,3 +186,49 @@ label
 #btn-entrar a {
     color: #F0F0E9;
 }
+
+.solicit {
+    background: #c4c4c4;
+    margin-bottom: 30px;
+}
+
+
+
+.solicitacoes > div {
+    display: flex;
+    padding: 15px 100px 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.solicitacoes > div:nth-of-type(1) {
+    justify-content: space-around;
+}
+
+.solicit div {
+    height: 100%;
+    padding: 10px;
+    color: #f0f0e9;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.insc {
+    background: #009306;
+}
+
+.desist {
+    background: #FF2233;
+}
+
+.msg {
+    background: #14387F;
+}

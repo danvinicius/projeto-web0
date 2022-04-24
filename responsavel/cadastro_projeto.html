@@ -32,13 +32,48 @@
             <img src="../imagens/lupa.png" alt="" />
           </div>
           <li class="dropdown">
-            <span>Sair ></span>
+            <a href="../index.html"><span>Sair ></span></a>
           </li>
         </ul>
       </nav>
-      <main>
+      <main class="login cadastro">
         <h1 id="titulo">Projetos Ativos<br /></h1>
         <br />
+        <form action="./index.html" method="post">
+          <label for="nome">Nome do projeto: *</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            autofocus
+            placeholder="Ex: João da Silva"
+            style="width: 100%"
+          />
+          <label for="area" name="area">Área de aplicação: *</label>
+          <select name="area" id="area">
+            <option value="ciencias-biologicas">Ciências Biológicas</option>
+            <option value="ciencias-saude">Ciências da Saúde</option>
+            <option value="ciencias-exatas">Ciências Exatas e da Terra</option>
+            <option value="ciencias-humanas">Ciências Humanas</option>
+            <option value="ciencias-sociais">Ciências Sociais Aplicadas</option>
+            <option value="engenharias">Engenharias</option>
+            <option value="interdisciplinar">Interdisciplinar</option>
+            <option value="linguistica">Linguística, Letras e Artes</option>
+          </select>
+          <label for="objetivo">Objetivo: *</label>
+          <br />
+          <textarea
+            name="objetivo"
+            id="objetivo"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <div id="enviar" class="right">
+            <button style="width: 160px">Enviar</button>
+          </div>
+          <div class="clear"></div>
+        </form>
       </main>
       <footer>
         <address>
