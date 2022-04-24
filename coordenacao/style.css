@@ -1,0 +1,41 @@
+.participante {
+    background: #c4c4c4;
+    margin-bottom: 30px;
+}
+
+
+
+.ver_participantes > div {
+    display: flex;
+    padding: 15px 100px 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.participantes > div:nth-of-type(1) {
+    justify-content: space-around;
+}
+
+.participante div {
+    height: 100%;
+    padding: 10px;
+    color: #f0f0e9;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.conclu {
+    background: #009306;
+}
+
+.pendente {
+    background: #FF2233;
+}
