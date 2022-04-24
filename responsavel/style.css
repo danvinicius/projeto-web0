@@ -96,12 +96,20 @@
     clear:both;
 }
 
+.relatorios-recebidos td, .relatorios-recebidos th, .participantes td, .participantes th {
+    text-align: center;
+}
+
 #projeto
 {
     background-color: #C4C4C4;
     border-radius: 25px;
     padding: 25px;
     height:auto;
+}
+
+#projeto p {
+    color: black;
 }
 
 #notificacoes
