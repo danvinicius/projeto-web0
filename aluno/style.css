@@ -162,3 +162,72 @@ progress
 #btn-entrar a {
     color: #F0F0E9;
 }
+
+#novo-relatorio
+{
+    background-color: #C4C4C4;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #14387F;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#atividades-realizadas
+{
+    font-family: lato;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#atividades-realizadas td, #atividades-realizadas th
+{
+    border: 1px solid #F0F0E9;
+    padding: 5px;
+}
+
+#atividades-realizadas tr:nth-child(even)
+{
+    background-color: #D4D4D4;
+}
+
+#atividades-realizadas th
+{
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #B4B4B4;
+}
+
+#horas
+{
+    background-color: #f0f0e9;
+    border-radius: 10px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+#nova-atividade
+{
+    background-color: #008237;
+    color: #F0F0E9;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+#cancelar
+{
+    background-color: #FF2233;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
+
+#enviar-relatorio
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
