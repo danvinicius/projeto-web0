@@ -163,16 +163,6 @@ progress
     color: #F0F0E9;
 }
 
-<<<<<<< HEAD
-#cadastro
-{
-    background-color: #C4C4C4;
-    border-style: solid;
-    border-color: #14387F;
-    border-width: 2px;
-    border-radius: 25px;
-    padding: 25px;
-=======
 #novo-relatorio
 {
     background-color: #C4C4C4;
@@ -240,5 +230,29 @@ progress
     border-radius: 15px;
     padding: 5px 20px;
     font-family: lato;
->>>>>>> 395285800a60760db6e9f3b378cfd45ce05638c2
+}
+
+#mensagem
+{
+    background-color: #F0F0E9;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+#cancelar
+{
+    background-color: #FF2233;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
+
+#validar-relatorio
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
 }
