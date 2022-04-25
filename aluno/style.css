@@ -231,3 +231,28 @@ progress
     padding: 5px 20px;
     font-family: lato;
 }
+
+#mensagem
+{
+    background-color: #F0F0E9;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+#cancelar
+{
+    background-color: #FF2233;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
+
+#validar-relatorio
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
