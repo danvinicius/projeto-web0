@@ -37,8 +37,33 @@
         </ul>
       </nav>
       <main>
-        <h1 id="titulo">Projetos Ativos<br /></h1>
+        <h1 id="titulo">Novo Relatório<br /></h1>
         <br />
+        <div id="novo-relatorio">
+          <p><b>Projeto: </b> PET</p><br>
+          <p><b>Responsável: </b> Prof. Serra</p>
+          <table id="atividades-realizadas"> <!--linhas alternam cor-->
+            <tr>
+              <th>Atividades Realizadas</th>
+              <th>Horas gastas</th>
+            </tr>
+            <tr>
+              <td>
+                <b>"Título da atividade"
+                <input id="anexar" name ="anexar arquivo" type="file">
+              </td>
+              <td>
+                <input id="horas" type="number">
+              </td>
+            </tr>
+          </table><br>
+          <button id="nova-atividade">Nova atividade +</button>
+          <div id="botoes" class="right">
+            <button id="cancelar">Cancelar</button>&nbsp;&nbsp;
+            <button id="enviar-relatorio">Enviar Relatório</button>
+          </div>
+                    
+        </div>
       </main>
       <footer>
         <address>

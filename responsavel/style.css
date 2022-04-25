@@ -240,3 +240,56 @@ label
 .msg {
     background: #14387F;
 }
+
+#solicitacao
+{
+    background-color: #C4C4C4;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #14387F;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#mensagem
+{
+    background-color: #F0F0E9;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+#mensagem-aluno
+{
+    background-color: #F0F0E9;
+    border-style: hidden;
+    border-radius: 15px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    height: 100px;
+    font-family: lato;
+}
+
+#carta
+{
+    width: 45px;
+}
+
+#recusar
+{
+    background-color: #FF2233;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: lato;
+}
+
+#aceitar-solicitacao
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: lato;
+}
