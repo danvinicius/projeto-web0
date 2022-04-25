@@ -162,3 +162,13 @@ progress
 #btn-entrar a {
     color: #F0F0E9;
 }
+
+#cadastro
+{
+    background-color: #C4C4C4;
+    border-style: solid;
+    border-color: #14387F;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 25px;
+}
