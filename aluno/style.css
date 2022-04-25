@@ -116,7 +116,7 @@ h2, h3, h4
 }
 
 #notif p {
-    color: #f0f0e9;
+    color: #f0f0e9 !important;
 }
 
 label
@@ -230,4 +230,13 @@ progress
     border-radius: 15px;
     padding: 5px 20px;
     font-family: lato;
+}
+
+.responder-responsavel {
+    margin-left: 150px;
+    text-align: right;
+}
+
+#notificacoes p {
+    color: black;
 }
