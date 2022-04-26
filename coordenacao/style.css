@@ -143,3 +143,28 @@ label
 {
     max-width: 70%;
 }
+
+.login form {
+    border: 2px solid #14387F;
+    border-radius: 22px;
+    padding: 30px 15px;
+    background: #C4C4C4;
+}
+
+.login button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #14387F;
+    color: #f0f0e9;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.login input {
+    display: block;
+    background: #f0f0e9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
