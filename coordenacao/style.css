@@ -39,3 +39,155 @@
 .pendente {
     background: #FF2233;
 }
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+  
+.clear {
+    clear:both;
+}
+
+
+#projeto
+{
+    background-color: #C4C4C4;
+    border-radius: 25px;
+    padding: 25px;
+    height:auto;
+}
+
+#projeto p {
+    color: black;
+}
+
+#notificacoes
+{
+    background-color: #D4D4D4;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+    min-height: 10px;
+    position: relative;
+}
+
+#notificacoes p {
+    margin: 10px 0;
+}
+
+#notif {
+    height: 35px;
+    width: 35px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notif p {
+    color: #f0f0e9;
+}
+
+label
+{
+    font-family: latob;
+}
+
+.progress-bar
+{
+    height: 40px;
+    width: 300px;
+    background: #d4d4d4;
+    margin-right: 10px;
+}
+
+.progress {
+    width: 60px;
+    background: #6BAF53;
+    height: 40px;
+}
+
+.progress-container {
+    margin-bottom: 30px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#vagas {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ver-participantes-btn, #visualizar-relatorios-btn
+{
+    background-color: #14387F;
+    color: #F0F0E9;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 160px;
+    height: 40px;
+    font-size: 100%;
+    font-family: lato;
+}
+
+#objetivo
+{
+    max-width: 70%;
+}
+
+#relatorio-coord {
+    background-color: #c4c4c4;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+#relatorio-coord td:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#relatorio-coord td div {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.horas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #f0f0e9;
+}
+
+.recusar{
+    background: #FF2233;
+}
+
+.validar {
+    background: rgba(20, 56, 127, .5);
+}
+
+#botoes {
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+tr th {
+    text-align: center;
+}
