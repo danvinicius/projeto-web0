@@ -36,13 +36,76 @@
           </li>
         </ul>
       </nav>
-      <main>
-        <h1 id="titulo">Projetos Ativos<br /></h1>
+      <main class="login cadastro">
+        <h1 id="titulo">Certificado<br /></h1>
         <br />
+        <form action="./index.html" method="post">
+          <label for="nome">Nome completo: *</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            autofocus
+            placeholder="Ex: João da Silva"
+            style="width: 100%"
+          />
+          <div class="clear">&nbsp;</div>
+          <div id="departamento" class="right">
+            <label for="departamento">Departamento: *</label>
+            <select name="departamento" id="departamento">
+              <option value="ia">Agronomia (IA)</option>
+              <option value="icbs"> Ciências Biológicas e da Saúde (ICBS)</option>
+              <option value="ice">Ciências Exatas (ICE)</option>
+              <option value="ichs">Ciências Humanas e Sociais (ICHS)</option>
+              <option value="icsa">Ciências Sociais Aplicadas (ICSA)</option>
+              <option value="ie">Educação (IE)</option>
+              <option value="if">Florestas (IF)</option>
+              <option value="iq">Química (IQ)</option>
+              <option value="it">Tecnologia (IT)</option>
+              <option value="iv">Veterinária (IV)</option>
+              <option value="iz">Zootecnia (IZ)</option>
+            </select>
+          </div>
+          <div id="matricula" class="left">
+            <label for="matricula">Matrícula: *</label>
+            <input type="number" id="matricula" name="matricula" />
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div id="campus" class="right">
+            <label for="campus">Câmpus de aplicação: *</label>
+            <select id="campus" name="campus">
+              <option value="seropedica">Seropédica (Sede)</option>
+              <option value="nova-iguacu">Nova Iguaçu</option>
+              <option value="tres-rios">Três Rios</option>
+            </select>
+          </div>
+          <div id="area" class="left">
+            <label for="area" name="area">Área de aplicação: *</label>
+            <select name="area" id="area">
+              <option value="ciencias-biologicas">Ciências Biológicas</option>
+              <option value="ciencias-saude">Ciências da Saúde</option>
+              <option value="ciencias-exatas">
+                Ciências Exatas e da Terra
+              </option>
+              <option value="ciencias-humanas">Ciências Humanas</option>
+              <option value="ciencias-sociais">
+                Ciências Sociais Aplicadas
+              </option>
+              <option value="engenharias">Engenharias</option>
+              <option value="interdisciplinar">Interdisciplinar</option>
+              <option value="linguistica">Linguística, Letras e Artes</option>
+            </select>
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div id="enviar" class="right">
+            <button style="width: 160px" ><a href="./certificado.html">Enviar</a></button>
+          </div>
+          <div class="clear"></div>
+        </form>
       </main>
       <footer>
         <address>
-          <p>(21) 4002-8922 / (21)91234-5678</p>
+          <p>(21) 4002-8922 / (21) 91234-5678</p>
           <p>progae@ufrrj.br</p>
         </address>
         <img src="../imagens/rural_logo.png" alt="" />
