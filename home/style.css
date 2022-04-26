@@ -1,0 +1,29 @@
+#noticia
+{
+    width: 50%;
+    padding: 20px;
+    height: 300px;
+}
+#imagem-noticia
+{
+    height: 70%;
+    background-color: whitesmoke;
+}
+#resumo-noticia
+{
+    background-color: #C4C4C4;
+    padding: 10px 15px;
+    height: 30%;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+  
+.clear {
+    clear:both;
+}
