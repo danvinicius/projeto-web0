@@ -144,54 +144,6 @@ label
     max-width: 70%;
 }
 
-<<<<<<< HEAD
-#relatorio-coord {
-    background-color: #c4c4c4;
-    padding: 25px;
-    border-radius: 20px;
-}
-
-#relatorio-coord td:nth-of-type(2) {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#relatorio-coord td div {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-.horas {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.btn {
-    padding: 10px 25px;
-    border-radius: 20px;
-    color: #f0f0e9;
-}
-
-.recusar{
-    background: #FF2233;
-}
-
-.validar {
-    background: rgba(20, 56, 127, .5);
-}
-
-#botoes {
-    margin-top: 50px;
-    display: flex;
-    gap: 15px;
-}
-
-tr th {
-    text-align: center;
-=======
 .login form {
     border: 2px solid #14387F;
     border-radius: 22px;
@@ -215,5 +167,73 @@ tr th {
     border-radius: 10px;
     padding: 10px;
     width: 300px;
->>>>>>> 36562fa4cc239528c9993186b826a3361de4d2b4
+}
+
+#criarcertificado
+{
+    border: 2px solid #14387F;
+    border-radius: 22px;
+    padding: 30px 15px;
+    background: #C4C4C4;
+    height: 700px;
+}
+
+#certificado
+{
+    border-radius: 25px;
+    background-color: #F0F0E9;
+    background-image: url(../imagens/certificado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    height: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.assinaturas
+{   
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 5px;
+    position: relative;
+    font-weight: bold;
+}
+
+.assinatura:nth-of-type(1):before {
+    content: '';
+    width: 35%;
+    height: 1px;
+    top: 0;
+    left: 65px;
+    background: black;
+    position: absolute;
+}
+
+.assinatura:nth-of-type(2):before {
+    content: '';
+    width: 35%;
+    height: 1px;
+    top: 0;
+    left: 305px;
+    background: black;
+    position: absolute;
+}
+
+#qrcode
+{
+    width: 35%;
+}
+
+#concluir
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
 }
