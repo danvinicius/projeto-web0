@@ -341,3 +341,11 @@ label
     font-family: latob;
     background-color: #BBBBBB;
 }
+
+#concordo {
+    width: initial;
+}
+
+#termos {
+    margin-bottom: 5px;
+}
