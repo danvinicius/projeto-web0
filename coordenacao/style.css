@@ -239,3 +239,11 @@ label
     padding: 5px 20px;
     font-family: lato;
 }
+
+.tabela-relatorios a {
+    color: black;
+    font-weight: bold;
+}
+.tabela-relatorios a:hover {
+    text-decoration: underline;
+}
