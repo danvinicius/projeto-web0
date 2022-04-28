@@ -1,0 +1,33 @@
+.nao-possui-conta {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cadastro input, .cadastro select {
+    margin-bottom: 20px;
+}
+
+.cadastro #nome {
+    width: 100%;
+}
+
+#concordo {
+    margin-right: 5px;
+}
+
+.cadastro #concordo, .cadastro p {
+    display: inline-block;
+}
+
+.cadastro #email, .cadastro #departamento {
+
+   display: block;
+}
+
+#concordo {
+    width: initial;
+}
+
+#termos {
+    margin-bottom: 5px;
+}

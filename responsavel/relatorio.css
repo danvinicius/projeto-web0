@@ -1,0 +1,38 @@
+#atividades-realizadas
+{
+    font-family: lato;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#atividades-realizadas td, #atividades-realizadas th
+{
+    border: 1px solid #F0F0E9;
+    padding: 10px;
+}
+
+#atividades-realizadas tr:nth-child(even)
+{
+    background-color: #D4D4D4;
+}
+
+#atividades-realizadas th
+{
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #B4B4B4;
+}
+
+#atividade
+{
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: latob;
+    background-color: #BBBBBB;
+}
+
+#carta
+{
+    width: 45px;
+}

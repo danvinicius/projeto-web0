@@ -8,6 +8,7 @@
     </title>
     <link rel="stylesheet" href="../geral.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="relatorio.css" />
   </head>
   <body>
     <div class="container">
@@ -59,21 +60,21 @@
             <tr>
               <td style="display: flex; justify-content: space-between">
                 <b>"Título da atividade 1"</b>
-                <button id="atividade">atividade1.pdf</button>
+                <button class="btn" id="atividade">atividade1.pdf</button>
               </td>
               <td id="h"><b>3h</b></td>
             </tr>
             <tr>
               <td style="display: flex; justify-content: space-between">
                 <b>"Título da atividade 2"</b>
-                <button id="atividade">atividade2.pdf</button>
+                <button class="btn" id="atividade">atividade2.pdf</button>
               </td>
               <td id="h"><b>2h</b></td>
             </tr>
             <tr>
               <td style="display: flex; justify-content: space-between">
                 <b>"Título da atividade 3"</b>
-                <button id="atividade">atividade3.pdf</button>
+                <button class="btn" id="atividade">atividade3.pdf</button>
               </td>
               <td id="h"><b>8h</b></td>
             </tr>
@@ -92,8 +93,12 @@
             rows="10"
           ></textarea>
           <div class="right">
-            <button id="recusar"><a href="./relatorios_recebidos.html">Recusar</a></button>&nbsp;&nbsp;&nbsp;
-            <button id="aceitar-solicitacao"><a href="./relatorios_recebidos.html">Validar Relatório</a></button>
+            <button class="btn" id="recusar">
+              <a href="./relatorios_recebidos.html">Recusar</a></button
+            >&nbsp;&nbsp;&nbsp;
+            <button class="btn" id="aceitar-solicitacao">
+              <a href="./relatorios_recebidos.html">Validar Relatório</a>
+            </button>
           </div>
           <div class="clear"></div>
         </div>

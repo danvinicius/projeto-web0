@@ -1,0 +1,12 @@
+.relatorios-recebidos td, .relatorios-recebidos th, .participantes td, .participantes th {
+    text-align: center;
+}
+
+.relatorios-recebidos a {
+    color: black;
+    font-weight: bold;
+}
+
+.relatorios-recebidos a:hover {
+    text-decoration: underline;
+}

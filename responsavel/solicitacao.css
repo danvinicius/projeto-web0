@@ -1,0 +1,36 @@
+#mensagem
+{
+    background-color: #F0F0E9;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+#mensagem-aluno
+{
+    background-color: #F0F0E9;
+    border-style: hidden;
+    border-radius: 15px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    height: 100px;
+    font-family: lato;
+}
+#recusar
+{
+    background-color: #FF2233;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}
+
+#aceitar-solicitacao
+{
+    background-color: #14387F;
+    color:#F0F0E9;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: lato;
+}

@@ -1,0 +1,73 @@
+#projeto
+{
+    background-color: #C4C4C4;
+    border-radius: 25px;
+    padding: 25px;
+    height:auto;
+}
+
+#notificacoes
+{
+    background-color: #D4D4D4;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+    min-height: 10px;
+    position: relative;
+}
+
+#notificacoes p {
+    margin: 10px 0;
+}
+
+#notif {
+    height: 35px;
+    width: 35px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notif p {
+    color: #f0f0e9 !important;
+}
+
+label
+{
+    font-family: latob;
+}
+
+progress
+{
+    height: 30px;
+    width: 300px;
+}
+
+#sair
+{
+    background-color: #D61313;
+    color: #F0F0E9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 100%;
+    font-family: lato;
+}
+
+#novo
+{
+    background-color: #14387F;
+    color: #F0F0E9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 100%;
+    font-family: lato;
+}
