@@ -14,8 +14,10 @@
     position: relative;
 }
 
-.participantes > div:nth-of-type(1) {
-    justify-content: space-around;
+.ver_participantes .table-title {
+    gap: 150px;
+    padding-left: 60px;
+    padding-right: 20px;
 }
 
 .participante div {
