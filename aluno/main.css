@@ -48,6 +48,11 @@ progress
     width: 300px;
 }
 
+.solicitar-certificado {
+    float: right;
+    background: #008237;
+}
+
 #sair
 {
     background-color: #D61313;

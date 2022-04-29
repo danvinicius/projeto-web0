@@ -9,8 +9,8 @@
 }
 
 .responder-responsavel {
-    margin-left: 150px;
-    text-align: right;
+    display: block;
+    margin-top: 10px;
 }
 
 #notificacoes p {
