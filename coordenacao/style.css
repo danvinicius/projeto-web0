@@ -229,6 +229,7 @@ label
 #qrcode
 {
     width: 35%;
+    margin-left: -80px;
 }
 
 #concluir
@@ -238,6 +239,7 @@ label
     border-radius: 15px;
     padding: 5px 20px;
     font-family: lato;
+    margin-top: 150px;
 }
 
 .tabela-relatorios a {
