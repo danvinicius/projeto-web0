@@ -9,8 +9,9 @@
 }
 
 .responder-responsavel {
+    float: right;
     display: block;
-    margin-top: 10px;
+    margin-top: 120px;
 }
 
 #notificacoes p {
