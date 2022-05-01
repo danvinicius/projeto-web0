@@ -26,6 +26,10 @@ label
     max-width: 40px;
 }
 
+#recusar {
+    background: #ff2233;
+}
+
 #recusar-validar {
     float: right;
 }
