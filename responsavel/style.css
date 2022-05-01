@@ -27,7 +27,6 @@ label
 }
 
 #recusar-validar {
-    display: flex;
-    align-items: flex-end;
+    float: right;
 }
 
