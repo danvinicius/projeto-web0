@@ -11,3 +11,20 @@
 #termos {
     margin-bottom: 5px;
 }
+
+#sim,#nao {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    width: 10px;
+}
+
+#li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#li input {
+    margin-bottom: 0;
+}

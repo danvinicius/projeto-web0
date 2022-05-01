@@ -249,3 +249,7 @@ label
 .tabela-relatorios a:hover {
     text-decoration: underline;
 }
+
+#botoes {
+    margin-top: 40px;
+}

@@ -36,3 +36,7 @@
 {
     width: 45px;
 }
+
+#recusar, #aceitar-solicitacao {
+    margin-top: 100px;
+}
