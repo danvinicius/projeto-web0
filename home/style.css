@@ -27,3 +27,7 @@
 .clear {
     clear:both;
 }
+
+#recusar, #validar {
+    margin-top: 100px;
+}

@@ -18,3 +18,16 @@ label
     text-align: center;
 }
 
+#enviar-projeto {
+    color: #fff;
+}
+
+#carta {
+    max-width: 40px;
+}
+
+#mesalva {
+    display: flex;
+    align-items: flex-end;
+}
+
