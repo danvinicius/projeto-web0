@@ -17,3 +17,6 @@ Veja [aqui](https://docs.google.com/document/d/1z4RnxCUR_k_qC91TuY2AIhOSi_KR70YD
 ## Professor
 
 - [Tiago Cruz de França](https://github.com/tcruzfranca)
+
+## Link para o website
+- Clique [aqui](https://statuesque-pie-b1a49e.netlify.app/) para acessar o website do projeto
