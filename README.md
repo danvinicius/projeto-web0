@@ -18,5 +18,10 @@ Veja [aqui](https://docs.google.com/document/d/1z4RnxCUR_k_qC91TuY2AIhOSi_KR70YD
 
 - [Tiago Cruz de França](https://github.com/tcruzfranca)
 
+## O projeto
+<b>
+ <img src='tela_projeto.png' alt=''>
+ <br/><br/>
+
 ## Link para o website
 - Clique [aqui](https://statuesque-pie-b1a49e.netlify.app/) para acessar o website do projeto
